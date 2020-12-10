@@ -123,7 +123,7 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 
 //Chat XP-TN
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, '3aalaikumsalam, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
@@ -135,13 +135,13 @@ else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
 }
 else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, Ketik !help/;!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
 }
 else if (text == 'P'){
 conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
 }
 else if (text == 'Halo'){
-conn.sendMessage(id, 'Ya?, Ketik !help/;!info/!donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
 }
 else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
@@ -162,7 +162,7 @@ else if (text == 'Bacot'){
 conn.sendMessage(id, 'lu bacot_-' ,MessageType.text);
 }
 else if (text == 'Test'){
-conn.sendMessage(id, 'Test 1,2,3 ketik .help' ,MessageType.text);
+conn.sendMessage(id, 'Test 1,2,3 ketik !help' ,MessageType.text);
 }
 else if (text == 'Hai'){
 conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
@@ -1073,25 +1073,25 @@ else if (text == '!pict'){
 conn.sendMessage(id, 'kirim !pict cewek/cowok\n\nContoh: !pict cewek' ,MessageType.text);
 }
 else if (text == '!help'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
 else if (text == '!menu'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
 else if (text == '!tools2'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
 else if (text == '!tools3'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_,BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
 else if (text == '!tools4'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
 else if (text == '!tools5'){
-conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan BOT *ðŸ‘¾XP-TNNBOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
+conn.sendMessage(id, ' _ðŸ—£ï¸Thanks Telah Menggunakan *ðŸ‘¾AVN_BOTðŸ‘¾* , Follow Instagram Mimin YahðŸ˜» : https://instagram.com/@avn_official.03' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
@@ -1598,7 +1598,7 @@ if (text.includes("!ytmp4"))
 
 
 if (text.includes('!profileig')){
-  var teks = text.replace(/%profileig /, '')
+  var teks = text.replace(/!profileig /, '')
     axios.get('https://arugaz.herokuapp.com/api/stalk?username='+teks)
     .then((res) => {
       imageToBase64(res.data.Profile_pic)
