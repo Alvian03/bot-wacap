@@ -421,8 +421,8 @@ axios.get(`https://arugaz.herokuapp.com/api/howgay`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
-if (text.includes("#")){
-const teks = text.replace(/# /, "")
+if (text.includes(".")){
+const teks = text.replace(/. /, "")
 axios.get(`https://st4rz.herokuapp.com/api/simsimi?kata=${teks}`).then((res) => {
     let hasil = `${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
