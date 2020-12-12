@@ -147,7 +147,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '!owner'){
-conn.sendMessage(id, 'Owner A V N  B O T wa.me/+17016607496' ,MessageType.text);
+conn.sendMessage(id, 'Owner A V N  B O T wa.me/17016607496' ,MessageType.text);
 }
 else if (text == 'Masvian'){
 conn.sendMessage(id, 'aku pembuat A V N  B O T' ,MessageType.text);
