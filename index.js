@@ -22,7 +22,7 @@ const urlencode = require("urlencode");
 const axios = require("axios");
 const imageToBase64 = require('image-to-base64');
 const xp = require("./lib/xp.js");
-const donate = require("./lib/donate.js");
+const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 const xp1 = require("./lib/xp1.js");
 const xp2 = require("./lib/xp2.js");
@@ -123,7 +123,7 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 
 //Chat XP-TN
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik !help/!info/#donasi Contoh !help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik !help/!info/!donasi Contoh !help' ,MessageType.text);
@@ -146,7 +146,7 @@ conn.sendMessage(id, 'Ya?, Ketik !help/!info/!donasi Contoh !help' ,MessageType.
 else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
-else if (text == '.owner'){
+else if (text == '!owner'){
 conn.sendMessage(id, 'Owner A V N  B O T wa.me/+17016607496' ,MessageType.text);
 }
 else if (text == 'Masvian'){
