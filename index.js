@@ -29,7 +29,7 @@ const xp2 = require("./lib/xp2.js");
 const xp3 = require("./lib/xp3.js");
 const xp4 = require("./lib/xp4.js");
 const xp5 = require("./lib/xp5.js");
-const readTextInImage = require('./lib/ocr.');
+
 				
 //
 const
