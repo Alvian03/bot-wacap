@@ -653,7 +653,7 @@ if (text.includes("!wiki")){
 const teks = text.replace(/!wiki /, "")
 axios.get(`https://arugaz.herokuapp.com/api/wiki?q=${teks}`).then((res) => {
 	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
-    let hasil = `ðŸ“Menurut Wikipedia:\n\n${res.data.result}`;
+    let hasil = `✍️ Menurut Wikipedia:\n\n${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
