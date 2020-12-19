@@ -149,7 +149,7 @@ else if (text == 'Vian'){
 conn.sendMessage(id, 'Aku BOT nya Drs K.H Alvian' ,MessageType.text);
 }
 else if (text == 'Firla'){
-conn.sendMessage(id, 'Punya owner Asw'!! ,MessageType.text);
+conn.sendMessage(id, 'Punya owner Asw!!' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
