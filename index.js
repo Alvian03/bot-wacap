@@ -16,7 +16,7 @@ const axios = require("axios");
 const imageToBase64 = require('image-to-base64');
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
-const menu = require("./lib/help.js");
+const help = require("./lib/help.js");
 const speed = require('performance-now');
 const readTextInImage = require('./lib/ocr')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
@@ -1880,15 +1880,15 @@ else if (text == '!hello1'){
 let hasil = fs.readFileSync('mp3/' + 'PTT' + '!wav')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
-if (text.includes("!test")){
+if (text.includes("test")){
 let err = fs.readFileSync('mp3/' + 'test' + '!mav')
  conn.sendMessage(id, err, MessageType.audio, { quoted: m })
 }
-if (text.includes("!salam")){
+if (text.includes("salam")){
 let err = fs.readFileSync('mp3/' + 'salam' + '!mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true })
 }
-if (text.includes("!tariksis")){
+if (text.includes("tariksis")){
 let err = fs.readFileSync('mp3/' + 'tariksis' + '!wav')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
@@ -1900,23 +1900,23 @@ if (text.includes('bot')) {
  }
  conn.sendMessage(id, options, MessageType.text, { quoted: m })
 }
-if (text.includes("!desah")){
+if (text.includes("desah")){
 let err = fs.readFileSync('mp3/' + 'desah' + '!wav')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
-if (text.includes("!iri")){
+if (text.includes("iri")){
 let err = fs.readFileSync('mp3/' + 'iri' + '!mp3')
  conn.sendMessage(id, err, MessageType.audio, { ptt: true, quoted: m })
 }
-else if (text == '!baka'){
+else if (text == 'baka'){
 let hasil = fs.readFileSync('mp3/' + 'baka' + '!wav')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
-else if (text == '!pttt'){
+else if (text == 'pttt'){
 let hasil = fs.readFileSync('mp3/' + 'pttt' + '!pttt')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
-else if (text == '!goblok'){
+else if (text == 'goblok'){
 let hasil = fs.readFileSync('mp3/' + 'goblok' + '!wav')
  conn.sendMessage(id, hasil, MessageType.audio, { quoted: m } )
 }
