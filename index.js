@@ -143,7 +143,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '!owner'){
-conn.sendMessage(id, 'Owner A V N  B O T wa.me/62895414533737' ,MessageType.text);
+conn.sendMessage(id, 'Owner BABUBOT wa.me/62895414533737' ,MessageType.text);
 }
 else if (text == 'Vian'){
 conn.sendMessage(id, 'Aku BOT nya Drs K.H Alvian' ,MessageType.text);
